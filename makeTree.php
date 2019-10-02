@@ -1,7 +1,7 @@
 <?php
 
 // по ссылке создаст древовидное меню
-function makeTree(&$array) {
+function makeTree(array &$array) {
     array_walk($array, function(&$val, $key) use (&$array) {
         if ($val['IS_PARENT']) {
             $childs = array_filter($array, function ($elt) use ($val) {
