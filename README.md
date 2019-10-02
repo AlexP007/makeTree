@@ -6,8 +6,8 @@
 
 Например: 
 
-Array
-  (
+    Array
+        (
       [0] => Array
           (
               [TEXT] => Главная
@@ -164,9 +164,9 @@ Array
   
   Преобразует в 
   
-  Array
-(
-    [0] => Array
+     Array
+    (
+       [0] => Array
         (
             [TEXT] => Главная
             [LINK] => /
