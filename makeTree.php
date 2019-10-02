@@ -1,6 +1,6 @@
 <?php
 
-// по ссылке создасть древовидное меню
+// по ссылке создаст древовидное меню
 function createTreeMenu(&$array) {
     array_walk($array, function(&$val, $key) use (&$array) {
         if ($val['IS_PARENT']) {
